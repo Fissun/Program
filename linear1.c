@@ -7,7 +7,7 @@ int main()
     float a;
     float b;
 
-    printf ("Equation tipe: x*a + b = 0\n");
+    printf ("Equation type: x*a + b = 0\n");
 
     printf ("Enter a: ");
     scanf ("%f", &a);
