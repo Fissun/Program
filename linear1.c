@@ -13,10 +13,17 @@ int main()
     scanf ("%f", &a);
     printf ("Enter b: ");
     scanf ("%f", &b);
+    
+    if (a == 0)
 
-    x=-b/a;
+        printf ("No answer");
 
-    printf ("Answer: %0.2f", x);
-
+    else
+        
+        {
+        x = -b/a;
+        printf ("Answer: %0.2f", x);
+        }
+    
     return (0);
 }
